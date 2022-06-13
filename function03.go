@@ -28,7 +28,7 @@ func rollchar(firstName string, lastName string) (string, error) {
 func main() {
     fmt.Println("Welcome to the Character Generator")
 
-    playerChar, err := rollchar("Gandalf", "Turnip")
+    playerChar, err := rollchar("Gandalf", "superman")
 
     if err != nil {
         fmt.Println("Error while spawning your requested character.")
