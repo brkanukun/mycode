@@ -1,5 +1,5 @@
 # mycode
-Tracking my code
+Tracking my GoLang training code
 # mycode (Project Title)
 
 Would like to learn how to version control projects with git. 
