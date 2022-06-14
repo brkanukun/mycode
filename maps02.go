@@ -17,8 +17,9 @@ func main() {
     }
     
     // name to lookup
-    hostName := "hugo"
-    
+   // hostName := "hugo"
+   hostName := "prom"
+
     value, ok := hostResolution[hostName]
     if ok == true {
         fmt.Println("The value of ", hostName, "is", value)

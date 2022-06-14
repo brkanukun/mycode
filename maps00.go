@@ -16,10 +16,10 @@ func main() {
     // Returns gamescores: map[Zerg:9092]
     fmt.Println("gamescrores:", gamescores)
 
-    var totalscore map[string]int   // i will return Nil, comment out to make work
+  //  var totalscore map[string]int   // i will return Nil, comment out to make work
 
     // Runtime error: panic: assignment to entry in nil map
-    totalscore["minecraft"] = 912   // comment out this line
+    //totalscore["minecraft"] = 912   // comment out this line
     
     // if I want to make a map without filling with data right away
     // use make()
